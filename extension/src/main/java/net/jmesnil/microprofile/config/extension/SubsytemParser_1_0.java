@@ -32,7 +32,7 @@ import org.jboss.as.controller.PersistentResourceXMLParser;
  */
 public class SubsytemParser_1_0  extends PersistentResourceXMLParser {
     /**
-     * The name space used for the {@code substystem} element
+     * The name space used for the {@code subsystem} element
      */
     public static final String NAMESPACE = "urn:net.jmesnil:microprofile-config:1.0";
 
@@ -45,7 +45,8 @@ public class SubsytemParser_1_0  extends PersistentResourceXMLParser {
                 .addChild(builder(new ConfigSourceDefinition())
                     .addAttributes(
                             ConfigSourceDefinition.ORDINAL,
-                            ConfigSourceDefinition.PROPERTIES))
+                            ConfigSourceDefinition.PROPERTIES,
+                            ConfigSourceDefinition.CLASS))
                 .build();
     }
 
