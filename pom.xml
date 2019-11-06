@@ -40,7 +40,7 @@
         <version.javax.javaee-api>7.0</version.javax.javaee-api>
         <version.junit>4.11</version.junit>
         <version.org.jboss.logging>2.0.1.Final</version.org.jboss.logging>
-        <version.org.wildfly>10.1.0.Final</version.org.wildfly>
+        <version.org.wildfly>18.0.0.Final</version.org.wildfly>
         <version.org.wildfly.core>2.2.1.Final</version.org.wildfly.core>
         <version.org.wildfly.swarm>2017.4.0</version.org.wildfly.swarm>
         <version.org.wildfly.swarm.config-api>1.0.2.Final</version.org.wildfly.swarm.config-api>
